@@ -1,0 +1,75 @@
+.admin {
+    width: 70%;
+}
+h1{
+    text-align: left;
+    margin-bottom: 15px;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 18vw;
+    height: 35px;
+}
+.save-button {
+    width: 7vw;
+    height: 41px;
+    background-color: rgb(94, 94, 255);
+    border: 0px;
+    transition:0.2s;
+}
+
+.save-button:hover {
+    width: 7vw;
+    height: 41px;
+    background-color: rgb(94, 94, 255);
+    border: 0px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.57);
+}
+
+
+.form-group{
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+}
+.table {    
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table2{
+    width: 90%;
+}
+
+.delete{
+    display: flex;
+    width: 95%;
+    justify-content: end;
+    margin-top: 5vh;
+
+}
+.delete-button{
+    color: white;
+    width: 7vw;
+    height: 30px;
+    background-color: red;
+    transition:0.2s;
+
+}
+
+.delete-button:hover{
+    width: 7vw;
+    height: 30px;
+    background-color: red;
+    box-shadow: 7px 7px 14px 0px rgba(97, 97, 97, 0.57);
+
+}
+

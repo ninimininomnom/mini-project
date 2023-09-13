@@ -1,0 +1,45 @@
+/* Navbar.css */
+nav {
+    background-color: #d0d0d0;
+    color: rgb(0, 0, 0);
+    height: 8vh;
+    
+  }
+  
+  ul {
+    margin-right: 30px;
+    margin-top: 0px;
+    height: inherit;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+  }
+  
+  li {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  a:hover{
+    color: white;
+  }
+
+  li:hover{
+    background-color: black;
+    color: white;
+  }
+
+  
